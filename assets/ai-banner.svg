@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Yigex — AI, computing and creative technology</title>
+  <desc id="desc">Dark graphite banner with electric blue and violet computational forms.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0c13"/>
+      <stop offset="0.56" stop-color="#111724"/>
+      <stop offset="1" stop-color="#0b0c13"/>
+    </linearGradient>
+    <linearGradient id="headline" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f8ff"/>
+      <stop offset="1" stop-color="#9eb5cb"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#48c6ff"/>
+      <stop offset="0.58" stop-color="#697aff"/>
+      <stop offset="1" stop-color="#ba56d8"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#375fc6" stop-opacity="0.43"/>
+      <stop offset="1" stop-color="#375fc6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#9cc4ff" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="330" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="26" fill="url(#grid)"/>
+  <circle cx="977" cy="165" r="242" fill="url(#halo)"/>
+  <path d="M30 29H1170M30 301H1170" stroke="#a6c9ff" stroke-opacity="0.16"/>
+  <path d="M30 29V301M1170 29V301" stroke="#a6c9ff" stroke-opacity="0.16"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#8eabca" font-size="12" letter-spacing="2.4">
+    <text x="66" y="65">BRUCEXCLUDING / PROFILE INTERFACE</text>
+    <text x="66" y="286">SYSTEM ONLINE</text>
+    <text x="314" y="286">AI · COMPUTE · CREATIVE TECH</text>
+    <text x="1035" y="286">001 / 001</text>
+  </g>
+  <circle cx="47" cy="61" r="5" fill="#52c8ff"/>
+  <circle cx="47" cy="282" r="5" fill="#52c8ff"/>
+  <text x="62" y="198" fill="url(#headline)" font-family="Arial, Helvetica, sans-serif" font-size="111" font-weight="900" letter-spacing="-10">YIGEX</text>
+  <path d="M64 218H540" stroke="url(#signal)" stroke-width="4" stroke-linecap="round"/>
+
+  <g opacity="0.95" transform="translate(955 166)">
+    <circle r="122" fill="none" stroke="#8fb7ff" stroke-opacity="0.14"/>
+    <circle r="93" fill="none" stroke="#75aaff" stroke-opacity="0.27"/>
+    <circle r="62" fill="none" stroke="url(#signal)" stroke-opacity="0.68" stroke-width="2"/>
+    <circle r="28" fill="#101d3a" stroke="#65bbff" stroke-opacity="0.7"/>
+    <circle r="11" fill="#75caff" filter="url(#glow)"/>
+    <circle r="5" fill="#b5e9ff"/>
+    <path d="M-122 0H-33M33 0H122M0-122V-33M0 33V122M-87-87L-23-23M23 23L87 87M87-87L23-23M-23 23L-87 87" stroke="url(#signal)" stroke-width="2" stroke-opacity="0.6"/>
+    <g fill="#9cdbff">
+      <circle cx="-122" cy="0" r="5"/><circle cx="122" cy="0" r="5"/><circle cx="0" cy="-122" r="5"/><circle cx="0" cy="122" r="5"/>
+      <circle cx="-87" cy="-87" r="4"/><circle cx="87" cy="87" r="4"/><circle cx="87" cy="-87" r="4"/><circle cx="-87" cy="87" r="4"/>
+    </g>
+  </g>
+  <path d="M616 103H771M616 119H727M616 135H749M616 151H697M616 167H737" stroke="#669acb" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+  <rect x="30" y="29" width="1140" height="272" rx="12" fill="none" stroke="#bad7ff" stroke-opacity="0.08"/>
+</svg>
